@@ -125,9 +125,9 @@ def changing_alan
         :languages => ["C"]
       }
     }
-    alan = programmer_hash[:alan_kay][:known_for] = "GUI"
-    binding.pry
-    alan 
+    programmer_hash[:alan_kay][:known_for] = "GUI"
+    #binding.pry
+     
 
 end
 
