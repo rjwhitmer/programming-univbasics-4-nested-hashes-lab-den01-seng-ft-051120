@@ -91,17 +91,20 @@ def adding_matz
     }
     
     programmer_hash[:yukihiro_matsumoto] = {}
-    binding.pry
+    #binding.pry
     programmer_hash[:yukihiro_matsumoto][:known_for] = []
     programmer_hash[:yukihiro_matsumoto][:languages] = []
     programmer_hash[:yukihiro_matsumoto][:languages] << "C"
     programmer_hash[:yukihiro_matsumoto][:known_for] << "Ruby"
     programmer_hash[:yukihiro_matsumoto][:languages] << "LISP"
     
-    binding.pry
+    matz = programmer_hash[:yukihiro_matsumoto]
+    matz
+    
+    #binding.pry
 end
 
-binding.pry
+#binding.pry
 
 def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
