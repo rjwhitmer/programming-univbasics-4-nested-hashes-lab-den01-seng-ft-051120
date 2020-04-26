@@ -89,13 +89,15 @@ def adding_matz
         :languages => ["C"]
       }
     }
+    binding.pry
     programmer_hash[:yukihiro_matsumoto]
+    binding.pry
     programmer_hash[:yukihiro_matsumoto] = {}
     programmer_hash[:yukihiro_matsumoto] << [:known_for => "Ruby"]
     programmer_hash[:yukihiro_matsumoto] << [:languages => "LISP"]
     programmer_hash[:yukihiro_matsumoto] << [:languages => "C"]
     
-    binding.pry
+    #binding.pry
 end
 
 binding.pry
