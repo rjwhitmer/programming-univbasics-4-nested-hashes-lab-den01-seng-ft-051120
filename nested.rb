@@ -126,7 +126,7 @@ def changing_alan
       }
     }
     programmer_hash[:alan_kay][:known_for] = "GUI"
-    alan = programmer_hash[:alan_kay][:known_for]
+    alan = programmer_hash[:alan_kay]
     alan
  #   binding.pry
     
