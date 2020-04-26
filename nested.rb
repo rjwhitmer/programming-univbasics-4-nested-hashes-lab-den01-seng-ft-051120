@@ -125,13 +125,14 @@ def changing_alan
         :languages => ["C"]
       }
     }
-    alan = programmer_hash[:alan_kay][:known_for] = "GUI"
+    programmer_hash[:alan_kay][:known_for] = "GUI"
+    alan = programmer_hash[:alan_kay][:known_for]
     alan
-    binding.pry
+ #   binding.pry
     
 
 end
-binding.pry
+#binding.pry
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
