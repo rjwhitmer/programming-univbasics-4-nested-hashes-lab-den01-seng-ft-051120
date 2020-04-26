@@ -131,6 +131,7 @@ def changing_alan
     
 
 end
+binding.pry
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
